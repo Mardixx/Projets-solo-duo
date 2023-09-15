@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import "_reset.css";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  max-height: 100%;
+}
+
+.first-part {
+  background-image: url("images/photos/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 538px;
+}
+.first-part .burger-menu {
+  position: absolute;
+  top: 32px;
+  right: 24px;
+}
+.first-part .burger-menu .burger-checkbox {
+  display: none;
+}
+.first-part .design {
+  text-align: center;
+  padding-top: 100px;
+}
+.first-part .design .heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+  line-height: 50px;
+  font-family: "Fraunces", serif;
+  padding-bottom: 50px;
+  letter-spacing: 5px;
+}
+.first-part .design .arrow-down {
+  border: 6px;
+}
+.first-part .logo {
+  top: 32px;
+  left: 24px;
+  position: absolute;
+}
+
+.second-part {
+  text-align: center;
+  height: 538px;
+}
+.second-part .all-slide2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 538px;
+}
+.second-part .all-slide2 .text-slide2 {
+  width: 90%;
+  height: 100%;
+}
+.second-part .all-slide2 .egg {
+  width: 100%;
+}
+.second-part .all-slide2 .heading2 {
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.name{
+    color: red;
+}
+body{
+    background-color: darkgray;
+}
+.pres, header, .movies{
+    background-color: white;
+    border-radius: 1%;
+    padding-bottom: 20px;
+}
+body{
+    max-width: 50%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.name, .inv{
+    text-align: center;
+    font-weight: 900;
+    
+}
+.tim{
+    margin-left: 365px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(165, 164, 164);
+}
+.who{
+    margin-left: 20px;
+}
+.see{
+    background-color: #df3535;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 400px;
+    font-weight: bold;
+    text-decoration: none;
+}
+li{
+    color:lightgray;
+    list-style: none;
+    display:block;
+    float: left;
+    margin-left: 80px;
+    font-size: larger;
+
+    
+}
+.social{
+    text-decoration: none;
+    color: gray;
+    margin-left: 75px;
+}
+.link{
+    padding: 50px;
+}
+.fa-brands{
+    margin-left: 100px;
+}
+span{
+    background-color: lightgray;
+}
+h3{
+    text-align: center;
+    padding-top: 30px;
+    color: darkgray;
+}
+h4{
+    text-align: center;
+}
+.syno{
+    margin: 30px;
+    text-align: center;
+}

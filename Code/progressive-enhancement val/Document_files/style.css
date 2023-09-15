@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+body {
+  margin: 0;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.header {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  background-color: blue;
+  background-image: url("img/slider/img_bg_slider_home01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header .header-div .header-explore-button {
+  display: flex;
+  align-self: flex-end;
+}
+.header h1 {
+  font-family: "Cinzel", serif;
+  font-size: 50px;
+}
+.header .header-div-nav {
+  display: flex;
+  flex-direction: row;
+}
+.header .header-div-nav .header-nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.header .header-div-nav .header-logo-kababi {
+  width: 125px;
+  height: 40px;
+}
+.header .header-div-nav .header-unlisted-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 25px;
+}
+.header .header-div-nav .header-unlisted-list .header-list {
+  display: flex;
+  align-self: center;
+  justify-self: flex-start;
+}
+.header .header-div-nav .header-unlisted-list .header-list .header-list-phone {
+  width: 15px;
+}
+.header .header-div-nav .header-unlisted-list2 {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 10px 10px;
+  justify-content: flex-end;
+}
+.header .header-div-nav .header-unlisted-list2 .header-button-bookatable {
+  margin-left: 20px;
+  width: 100px;
+}
+.header .header-div-nav .header-unlisted-list2 .header-list {
+  display: flex;
+  align-self: center;
+}
+.header .header-div-nav .header-unlisted-list2 .header-list .header-list-phone {
+  width: 15px;
+}/*# sourceMappingURL=style.css.map */

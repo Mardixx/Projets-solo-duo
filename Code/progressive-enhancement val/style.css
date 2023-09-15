@@ -1,0 +1,74 @@
+body{
+    max-width: 90%;
+    margin: auto;
+    background-image:url("farm.jpg");
+    background : linear-gradient(gray, orange, yellow);
+
+}
+p, table, ul, h1, h2, h3,h4, header{
+    font-family: serif;
+    text-indent: 10px;
+    font-size: large;
+    color: rgb(43, 1, 43);
+    line-height: 25px;
+    width: 50%;
+    margin: auto;
+}
+a:visited{
+   text-decoration:none; 
+   color: blue;
+}
+a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+.good{
+    font-style: normal;
+    text-transform: uppercase;
+    color: green;
+}
+.bad{
+    font-style: normal;
+    text-transform: uppercase;
+    color: red;
+}
+q{
+    font-size: 160%;
+    
+    border-left: 3px solid #a03623;
+    padding-left: 30px;
+    font-style: italic;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+p, table, ul, h1, h2, h3,h4, header, caption{
+    background-color: rgb(173, 170, 170);
+}
+.one{
+    border-color: blue;
+}
+.farmer{
+    border-color: green;
+}
+header:nth-child(1){
+    background-color:  yellow;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+.float{
+    float: right;
+}
+body .notif{
+    position: fixed;
+    left: 30px;
+    bottom: 0px;
+    background-color: transparent;
+    
+}
+

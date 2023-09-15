@@ -1,0 +1,70 @@
+body {
+  display: grid;
+  justify-content: center;
+  background-color: lightgray;
+  grid-gap: 25px;
+  grid-template-rows: 550px 450px;
+  color: gray;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+header h1 {
+  color: red;
+}
+header button {
+  background-color: red;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 50px;
+  border: none;
+  justify-self: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+header button a {
+  text-decoration: none;
+  color: white;
+}
+header img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  border: 3px solid grey;
+  margin-top: 10px;
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+}
+main a {
+  text-decoration: none;
+  color: gray;
+}
+main ul {
+  display: grid;
+  list-style: none;
+  justify-self: center;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 3.125rem;
+  padding: 0;
+}
+main ul li {
+  display: grid;
+  justify-items: center;
+  margin: 10px 0;
+}
+main ul li a {
+  font-size: 25px;
+}
+main ul li i {
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */
